@@ -14,7 +14,7 @@ const Statistics = ({ good, bad, neutral }) => {
 	return (
 		<div>
 			<h1>Statistics</h1>
-			{good + bad + neutral === 0 ? (
+			{all === 0 ? (
 				<p>No feedbacks given</p>
 			) : (
 				<div>
